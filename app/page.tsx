@@ -12,6 +12,8 @@ type FormData = {
   confirmPassword: string;
 };
 
+console.log();
+
 export default function Home() {
   const schema: ZodType<FormData> = z
     .object({
